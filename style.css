@@ -82,11 +82,30 @@ body {
   /* border-bottom: 2px solid white; */
 }
 
-#schedule-section {
-  background-color: white;
-  color: black;
+.section-title {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5%;
 }
 
+.club-event {
+  margin: 24px;
+}
+
+.club-event > h3, p {
+  margin: 0px;
+}
+
+#schedule-section {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#questions-section {
+  background-color: rgba(0, 0, 0, 0.7);
+}
 #title-section{
   display: flex;
   flex-direction:column;
@@ -97,9 +116,15 @@ body {
 }
 
 section {
-  margin: 0px;
-  padding: 15px;
+  margin: 0px;  
+  padding: 5%;
+  width: 100%;
 }
+.section-div {
+  margin: auto;
+  width: fit-content;
+}
+
 
 h1{
   font-size:48px;
