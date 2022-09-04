@@ -4,9 +4,10 @@
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  background-image: url("./assets/images/title-background.jpg");
+  /* background-image: url("./assets/images/title-background.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:cover; */
+  background: linear-gradient(45deg, #e66465, #9198e5);
   background-attachment:fixed;
   color: white;
   margin: 0px;
@@ -119,10 +120,19 @@ section {
   margin: 0px;  
   padding: 5%;
   width: 100%;
+  min-height: 110vh;
 }
 .section-div {
   margin: auto;
   width: fit-content;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 ul {
