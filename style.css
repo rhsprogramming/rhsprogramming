@@ -91,11 +91,11 @@ body {
 }
 
 .club-event {
-  margin: 24px;
+  border-top: 2px solid white;
 }
 
 .club-event > h3, p {
-  margin: 0px;
+  margin: 15px;
 }
 
 #schedule-section {
@@ -125,6 +125,10 @@ section {
   width: fit-content;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
 
 h1{
   font-size:48px;
